@@ -1,0 +1,95 @@
+.section {
+
+    &__container{
+        font-family: 'Gilroy',sans-serif;
+    }
+    
+    &__list {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        justify-content: space-between; 
+        margin: 70px 40px;
+        background-color: #ffffff;
+        padding: 70px 70px;
+        border: 1.5px solid #DDDDDD;
+        margin-top: -95px;
+    }
+    
+    
+    &__item-one::before {
+        content: '';
+        width: 60px;
+        height: 40px;
+        display: block;
+        background-image: url(../img/car-one.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-left: -2-70px;
+        margin-bottom: -65px;
+    }
+    
+    &__item-two::before {
+        content: '';
+        width: 60px;
+        height: 60px;
+        display: block;
+        background-image: url(../img/home.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-left: -70px;
+        margin-bottom: -75px;
+    }
+    
+    &__item-three::before {
+        content: '';
+        width: 60px;
+        height: 54px;
+        display: block;
+        background-image: url(../img/icon.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-left: -70px;
+        margin-bottom: -75px;
+    }
+    
+    &__item-four::before{
+        content: '';
+        width: 60px;
+        height: 60px;
+        display: block;
+        background-image: url(../img/XMLID_295_.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-left: -70px;
+        margin-bottom: -75px;
+    }
+    
+    &__head {
+        margin: 0 auto;
+        margin-bottom: 6px;
+        margin-top: 15px;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;    
+    }
+    
+    &__text{
+        margin: 0;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;    
+    }
+    
+    &__item-span, &__line {
+        width: 1px;
+        height: 60px;
+        background-color: #dddddd;
+        margin-left: -80px;
+        border: 2px;
+    }
+}

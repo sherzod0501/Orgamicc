@@ -1,0 +1,112 @@
+.hero {
+  
+    &__container{
+        font-family: 'Gilroy',sans-serif;
+        margin-top: 80px;
+        margin-bottom: 100px;
+        display: flex;
+        align-items: center;
+    }
+
+        &__hero15 {
+            display: flex;
+        }
+        
+        &__years {
+            margin-left: 22px;
+        }
+        
+        &__year-head {
+            padding: {
+                top: 10px;
+                bottom: 11px;
+                left: 82px;
+                right: 81px;
+            }
+            color: #76A713;
+            border: 1.5px dashed rgba(118, 167, 19, 0.5);
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 25px;
+            line-height: 23px;    
+            margin-bottom: 0;
+            margin-top:26px;
+        }
+        
+        &__two {
+            margin-left: 25px;      
+        }
+        
+        &__head {
+            max-width: 517px;
+            margin: 0;
+            margin-bottom: 39px;
+            font-family: "Oswald";
+            font-weight: 500;
+            font-size: 60px;
+            line-height: 89px;
+            color: #191D28;
+            text-transform: uppercase;
+        }
+        
+        &__two-text {
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 140%;    
+            color: #888888;
+        }
+        
+        &__blockquote {
+            display: flex;
+            flex-direction: column;
+            margin-left: 0;
+            width: 468px;
+            position: relative;
+            margin-top: 20px;
+        }
+        
+        &__two-span {
+            position: absolute;
+            top: 7px;
+            width: 1px;
+            height: 40px;
+            position: absolute;
+            width: 3px;
+            height: 36px;
+            background: #76A713; 
+        }
+        
+        &__blockquote-text {
+            margin-left: 15px;
+            font-family: 'Gilroy';
+            font-style: italic;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 140%;    
+        }
+        
+        &__cite {
+            color: #000000;
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 140%;    
+            margin-left: 15px;
+        }
+        
+        &__cite-text {
+            margin: 0;
+            margin-left:15px;
+            color: #AAAAAA; 
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 140%;    
+        }
+        
+    }

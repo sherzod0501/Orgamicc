@@ -1,0 +1,90 @@
+.header {
+    position: relative;
+
+    &__container {
+        font-family: 'Gilroy',sans-serif;
+    }
+    
+    &__top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #eeeeee;
+        padding-top: 17px;
+        padding-bottom: 17px;
+    }
+   
+    &__top-left {
+        display: flex;
+        align-items: center;
+    }
+   
+    &__top-text {
+        display: flex;
+        align-items: center;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 15px;
+    }
+   
+   &__top-text::before{
+       content: '';
+       width: 13px;
+       height: 16px;
+       display: block;
+       background-image: url(../img/location.png);
+       background-repeat: no-repeat;
+       background-size: contain;
+       margin-right: 7px;
+   }
+   
+    &__top-link {
+        display: flex;
+        text-decoration: none;
+        color: #000000;
+        margin-left: 30px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 15px;
+    }
+   
+    &__top-link::before {
+       content: '';
+       width: 20px;
+       height: 16px;
+       display: block;
+       background-image: url(../img/mail.png);
+       background-repeat: no-repeat;
+       background-size: contain;
+       margin-right: 9px;
+   }
+   
+   &__top-right {
+       display: flex;
+       align-items: center;
+   }
+   
+   &__select {
+       margin-right: 30px;
+       border: none;
+   }
+   
+   &__option {
+       font-family: 'Gilroy';
+       font-style: normal;
+       font-weight: 500;
+       font-size: 13px;
+       line-height: 15px;
+   
+   }
+   
+   &__right-right {
+       display: flex;
+       gap: 20px;
+   }
+   
+}

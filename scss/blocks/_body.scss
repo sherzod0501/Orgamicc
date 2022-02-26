@@ -1,0 +1,98 @@
+.body {
+    background-color:rgba(118, 167, 19, 0.31);
+    &__container{
+        font-family: 'Gilroy',sans-serif;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    &__hero {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__head {
+        width: 343px;
+        color: black;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 74px;
+        text-transform: uppercase;    
+    }
+    &__head-small {
+        color: #76A713;;
+    }
+
+    &__link {
+        display: inline-block;
+        background-color: #76A713;
+        color: #ffffff;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;    
+        padding: {
+            top:15px;
+            bottom: 16px;
+            left: 38px;
+            right: 37px;  
+        }
+    }
+
+    &__link:hover {
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        transition: all 0.3s ease;
+    }
+
+
+    &__bkgr-img-two { 
+        width: 90px;
+        height: 341px;
+        background-image: url(../img/ORGANIC.png);
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+
+    &__bcgr-img {
+        background-image: url(../img/tamoto-one.png);
+        background-repeat:no-repeat;
+        background-position:right;
+        width: 614px;
+        height: 440px;
+        transform: translateX(25%);
+    }
+
+    &__btns 
+
+    &__arrow-left {
+        width: 40px;
+        height: 40px;
+        background-image: url(../img/Arrow1.png);
+        background-repeat: no-repeat;
+        background-color:#76A713;
+        background-position: center;
+        border: none;
+        transform: translateX(-420px);
+        cursor: pointer;
+    }
+
+    &__arrow-right {
+        width: 40px;
+        height: 40px;
+        background-image: url(../img/arrow-right.png);
+        background-color: rgba(118, 167, 19, 0.31);
+        background-repeat: no-repeat;
+        background-position: center;
+        border: 1px solid #76A713;
+        transform: translateX(780px);
+        cursor: pointer;
+    }
+
+    &__arrow-right:hover {
+        background-color:#000000;
+        transition: all 0.3s ease;
+    }
+}

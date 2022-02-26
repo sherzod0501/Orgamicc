@@ -1,0 +1,91 @@
+.header2{
+
+    &__container {
+        font-family: 'Gilroy', Arial, sans-serif;
+    }
+    &-bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 46px;
+        padding-bottom: 46px;
+    }
+    
+    &__bottom-list {
+        position: relative;
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        gap: 29px;
+    }
+    
+    &__bottom-link {
+        text-decoration: none;
+        color: #000000;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    
+    &__bottom-link:hover {
+        color: #76A713;
+    }
+    
+    &__bottom-link_one {
+        text-decoration: none;
+        color: #76A713;   
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    
+    &__bottom-login {
+        display: flex;
+        align-items: center;
+    }
+    
+    &__login-link {
+        text-decoration: none;
+        padding: 10px 30px;
+        color: #ffffff;
+        background-color: #76A713;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    
+    &__login-link:hover {
+        background-color: aqua;
+        color: red;
+    }
+    
+    &__search-btn {
+        display: inline-block;
+        background-image: url(../img/search.png);
+        width: 40px;
+        height: 40px;
+        color: #eeeeee;
+        background-repeat: no-repeat;
+        background-position: center;
+        border:none;
+        margin-left: 10px;
+    }
+    
+    &__korzinka-btn {
+        display: inline-block;
+        background-image: url(../img/korzinka.png);
+        width: 40px;
+        height: 40px;
+        color: #eeeeee;
+        background-repeat: no-repeat;
+        background-position: center;
+        border:none;
+        margin-left: 10px;
+    }
+}
