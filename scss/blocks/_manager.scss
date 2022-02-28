@@ -1,0 +1,118 @@
+.manager {
+    height: 640px;
+
+    &__container {
+        font-family: 'Gilroy',sans-serif;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    &__img {
+        position: absolute;
+        width: 511px;
+        height: 441px;
+        background-image: url(../../img/dastavka.png);
+        top: 429px;
+        left: 100px;
+    }
+
+    &__test {
+        width: 385px;
+        height: 540px;
+        background-color: #FF6600;
+        margin-top: 330px;
+        margin-left: -95px;
+    }
+    &__test__img {
+        margin: {
+            top: 19px;
+            left: 85px;
+            bottom: 20px;
+        }
+    }
+
+    &__test__bckr {
+        background-color:  rgba(118, 167, 19, 0.3);
+        width: 485px;
+        height: 740px;
+        margin-top: 135px;
+        position: absolute;
+        top: 0;
+        right: -150;
+    }
+
+    &__alison{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        width: 550px;
+        height: 350px;
+        background-color: white;
+        z-index: 10;
+        position: absolute;
+        right: 15px;
+        top:400px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        padding: {
+            top: 50px;
+            bottom: 60px;
+            left: 37px;
+            right: 33px;
+        }
+    }
+    &__block__text {
+        color: #aaaaaa;
+        font-family: 'Gilroy';
+        font-style: italic;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 170%;    
+        margin-bottom: 22px;
+        margin-top: 53px;
+    }
+    &__block__parker {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    &__block__parker__img {
+        margin-bottom: 8px;
+    }
+    &__block__parker__cite {
+        color: #000000;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 170%;    
+    }
+    &__block__parker__text {
+        color: #888888;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 170%;    
+        margin-bottom: 6px;
+    }
+    &__rounds {
+       display: flex;
+       align-items: center;
+       gap: 7px;
+
+       &__round {
+        width: 10px;
+        height: 10px;
+        border: 1px solid #dddddd;
+        border-radius: 50%;
+    }
+
+    &__round:hover {
+        color: #76A713;
+        background-color: #76A713;;
+    }
+
+    }
+    
+}

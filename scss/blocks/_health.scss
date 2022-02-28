@@ -1,0 +1,158 @@
+.health {
+    background-color: #FFFFFF;
+    &__container {
+        font-family: 'Gilroy',sans-serif;
+        margin-bottom: 70px;
+    }
+    
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+        margin-bottom: 70px;
+    }
+    
+    &__save-one {
+        display: flex;
+        align-items: center;
+        background-color:#76A713;
+        position: relative;
+    }
+    
+    &__save-bckr {
+        width: 364px;
+        height: 300px;
+        background-image: url(../img/organic-food-broccoli-cauliflower-vegetable-healthy-food-048dee346ae91fc800180ba480e36d13.png);
+        background-repeat: no-repeat;
+        background-position: left bottom;
+    }
+    
+    &__save {
+        margin-left: -70px;
+        margin-right:40px;
+        margin-top: -55px;
+    }
+    
+    &__save-text {
+        margin: 0;
+        color: #FFFFFF;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;    
+        text-transform: uppercase;
+        text-align: right;
+    }
+    
+    &__save-head {
+        width: 247px;
+        margin: 0;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 59px;
+        text-align: right;
+        color: #FFFFFF;
+    }
+    
+    &__save-btn {
+        padding: 10px 18px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;    
+        background-color: #FF6600;
+        border: none;
+        position: absolute;
+        top: 215px;
+        left: 430px;
+    }
+    
+    &__save-btn:hover {
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        transition: all 0.3s ease;
+    }
+    
+    &__save-btn:active {
+        transition: all 0.5s ease;
+        background-color: rgb(111, 111, 255);
+        border: 1px solid rgb(111, 111, 255);
+    }
+    
+    &__offer-one {
+        width: 585px;
+        display: flex;
+        align-items: center;
+        background-color:#FF6600;
+        position: relative;
+    }
+    
+    &__offer-bckr {
+        width: 364px;
+        height: 300px;
+        background-image:url(../img/fruit-dietary-fiber-vegetable-food-health-fresh-fruits-69398c079f603f04f3cf8bef0bafbb1b.png);
+        background-repeat: no-repeat;
+        background-position: left bottom;
+    }
+    
+    &__offer {
+        margin-left: -70px;
+        margin-right:40px;
+        margin-top: -55px;
+    }
+    
+    &__offer-text {
+        margin: 0;
+        color: #FFFFFF;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;    
+        text-transform: uppercase;
+        text-align: right;
+    }
+    
+    &__offer-head {
+        width: 247px;
+        margin: 0;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 59px;
+        text-align: right;
+        color: #FFFFFF;
+    }
+    
+    &__offer-btn {
+        padding: 10px 18px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;    
+        background-color: #76A713;
+        border: none;
+        position: absolute;
+        top: 215px;
+        left: 430px;
+    }
+    
+    &__offer-btn:hover {
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        transition: all 0.3s ease;
+    }
+    
+    &__offer-btn:active {
+        transition: all 0.5s ease;
+        background-color: rgb(111, 111, 255);
+        border: 1px solid rgb(111, 111, 255);
+    }
+}

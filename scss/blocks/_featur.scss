@@ -1,0 +1,65 @@
+.featur {
+margin-bottom: 150px;
+    &__container {
+        font-family: 'Gilroy',sans-serif;
+    }
+    &__red {
+        display: flex;
+        align-items: center;
+        gap: 41px;
+        justify-content: center;
+        list-style-type: none;
+    }
+
+    &__head {
+        display: flex;
+        justify-content: center;
+        color: #191D28;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 60px;
+        line-height: 150%;   
+        margin-bottom: 42px; 
+    }
+
+    &__btns {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+
+
+    &__arrow-left {
+        width: 40px;
+        height: 40px;
+        background-image: url(../img/Arrow1.png);
+        background-repeat: no-repeat;
+        background-color:#76A713;
+        background-position: center;
+        border: none;
+        cursor: pointer;
+    }
+
+    &__arrow-left:hover {
+        background-color:rgb(77, 167, 167);
+        transition: all 0.3s ease;
+    }
+
+    &__arrow-right {
+        width: 40px;
+        height: 40px;
+        background-image: url(../img/arrow-right.png);
+        background-color: rgba(118, 167, 19, 0.31);
+        background-repeat: no-repeat;
+        background-position: center;
+        border: 1px solid #76A713;
+        cursor: pointer;
+    }
+
+    &__arrow-right:hover {
+        background-color:rgb(77, 167, 167);
+        transition: all 0.3s ease;
+    }
+}

@@ -1,0 +1,38 @@
+.total {
+
+    &__container {
+        font-family: 'Gilroy',sans-serif;
+        position: relative;
+    }
+    &__project {
+        position: absolute;
+        width: 100%;
+        top: -70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #76A713;
+        background-image: url(../../img/pngwing1.png);
+        padding: {
+            top: 78px;
+            bottom: 95px;
+        }
+    }
+
+    &__project__head {
+
+        text-align: center;
+        color: #ffffff;
+       font-family: 'Oswald';
+       font-style: normal;
+       font-weight: bold;
+       font-size: 60px;
+       line-height: 90px;    
+    }
+    &__project__text {
+        color: #ffffff;   
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;     
+    }
+}
