@@ -33,13 +33,13 @@
     }
 
     &__test__bckr {
+        position: absolute;
+        top: 0;
+        right: -150px;
         background-color:  rgba(118, 167, 19, 0.3);
         width: 485px;
         height: 740px;
         margin-top: 135px;
-        position: absolute;
-        top: 0;
-        right: -150;
     }
 
     &__alison{

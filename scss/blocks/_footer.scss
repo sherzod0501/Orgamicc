@@ -1,0 +1,228 @@
+.footer {
+    background-color: #191D28;
+    padding-bottom: 37px;
+    &__container {
+        font-family: 'Gilroy',sans-serif;
+        padding-top: 233px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 80px;
+    }
+
+    &__orgamic {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__left {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__right {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 93px;
+    }
+
+    &__many 
+
+    &__many__img {
+        margin-bottom: 25px;
+    }
+
+    &__many__text {
+        width: 270px;
+        color: #cccccc;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 140%;   
+        margin-bottom: 30px; 
+    }
+
+    &__many__bottom {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    &__list__one{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-left: 41px;
+    }
+
+    &__list__head {
+        color: #ffffff;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 140%;    
+    }
+
+    &__item__one__link {
+        color: #cccccc;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 140%;    
+        text-decoration: none;
+    }
+    &__item__one__link:hover {
+        color: #76A713;        ;
+    }
+
+    
+    &__list__two {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-right: 34px;
+    }
+
+    &__item__two {
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    &__before__one::before {
+        content:'';
+        width: 70px;
+        height: 70px;
+        display: block;
+        background-image: url(../img/ormon.png);
+        background-repeat: no-repeat;
+        background-position: contain;
+        margin-right: 20px;
+    }
+
+    &__before__two::before {
+        content:'';
+        width: 70px;
+        height: 70px;
+        display: block;
+        background-image: url(../img/yard.png);
+        background-repeat: no-repeat;
+        background-position: contain;
+        margin-right: 20px;
+    }
+
+    &__before__three::before {
+        content:'';
+        width: 70px;
+        height: 70px;
+        display: inline-block;
+        background-image: url(../img/baby.png);
+        background-repeat: no-repeat;
+        background-position: auto;
+        margin-right: 20px;
+    }
+
+    &__item__two__text {
+        width: 184px;
+        height: 46px;
+        color: #ffffff;
+        font-family:'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 130%;  
+        margin-bottom: 12px;  
+    }
+
+    &__item__two__small {
+        color: #cccccc;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 15px;    
+    }
+
+    &__list__three {
+        display: flex;
+        flex-direction: column;
+        gap: 22px;
+        margin-left: 32px;
+        margin-top: -65px;
+    }
+    &__head__end {
+        padding-bottom: 15px;
+    }
+
+    &__item__three__text {
+        width: 163px;
+        color: #cccccc;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 140%;    
+    }
+    &__item__three__text::before {
+        content:'';
+        width: 15px;
+        height: 17px;
+        display: inline-block;
+        background-image: url(../img/location.png);
+        background-repeat: no-repeat;
+        background-position: auto;
+        margin-right: 9px;
+    }
+
+    &__item__three__link::before {
+        width: 115px;   
+        content:'';
+        width: 15px;
+        height: 15px;
+        display: inline-block;
+        background-image: url(../img/phone.png);
+        background-repeat: no-repeat;
+        background-position: auto;
+        margin-right: 9px;
+    }
+
+    &__item__three__head__text {
+        color: #cccccc;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 140%; 
+    }
+    &__item__three__link {
+        color: #cccccc;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 140%; 
+    }
+    &__hr {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    &__bottom__container {
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-top: 26px;
+    }
+    &__bottom__text {
+        color: #cccccc;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 140%;    
+    }
+}
